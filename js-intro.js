@@ -8,25 +8,25 @@ var mantra = "Be the dev"
 // 1a. Write the code that determines if there is a 'B' in mantra.
 
 if (mantra.toLowerCase().includes("b")) {
-  return "Includes letter 'B'"
+  console.log("Includes letter 'B'"); //would use return in a function
 } else {
-  return "Does not include letter 'B'"
+  console.log("Does not include letter 'B'");
 }
 
 // 1b. Write the code that determines if there is an 'x' in mantra.
 
 if (mantra.toLowerCase().includes("x")) {
-  return "Includes letter 'X'"
+  console.log("Includes letter 'X'");
 } else {
-  return "Does not include letter 'X'"
+  console.log("Does not include letter 'X'");
 }
 
 // 1c. Write the code that determines if there is a 'v' in mantra.
 
 if (mantra.toLowerCase().includes("v")) {
-  return "Includes letter 'V'"
+  console.log("Includes letter 'V'");
 } else {
-  return "Does not include letter 'V'"
+  console.log("Does not include letter 'V'");
 }
 
 // 1d. STRETCH: Write a function that can take two arguments - a string and a letter and returns a sentence telling the user if the letter exists within the string.
@@ -72,8 +72,7 @@ const lengthChecker2 = (str1, str2) => {
 // 2b. Create a function that takes in two arguments and returns an array containing the two variables. Expected output: ["Snoopy", "Garfield"]
 
 const arrayCreator = (str1, str2) => {
-  let newArray = []
-  newArray.push(str1, str2)
+  let newArray = [str1, str2]
   return newArray
 }
 
